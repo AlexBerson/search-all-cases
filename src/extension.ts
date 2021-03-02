@@ -22,7 +22,7 @@ export function activate(context: vscode.ExtensionContext) {
 		const selection = editor?.selection
 		const text = editor?.document.getText(selection)
 		if (text == undefined) {
-			console.log("No selected text")
+			vscode.commands.executeCommand('workbench.action.findInFiles')
 			return;
 		}
 		const searchText = `${text}|${camelCase(text)}|${pascalCase(text)}|${snakeCase(text)}`

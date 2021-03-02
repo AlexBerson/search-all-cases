@@ -2,7 +2,13 @@
   "name": "search-all-cases",
   "displayName": "Search All Cases",
   "description": "Do a find in files for all cases of the selected text.",
-  "version": "0.0.1",
+  "publisher": "AlexBerson",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexBerson/search-all-cases.git"
+  },
+  "homepage": "https://github.com/AlexBerson/search-all-cases.git",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.53.0"
   },
